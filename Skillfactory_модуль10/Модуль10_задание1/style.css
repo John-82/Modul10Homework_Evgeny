@@ -1,0 +1,29 @@
+.btn .visibleImg {
+    display: block;
+    margin-left:auto; 
+    margin-right:auto;
+ }
+.btn .invisibleImg{
+    display: none;
+ }
+    
+.btn.btn--toggle .visibleImg {
+    display: none;
+}
+.btn.btn--toggle .invisibleImg {
+    display: block;
+    margin-left:auto; 
+    margin-right:auto; 
+}
+    
+.btn {
+    width:100px;
+    height:21px;
+    background-color:red;
+    border-radius:3px; 
+    cursor: pointer; 
+    }
+    
+.btn:hover {
+    background-color:white;
+    }

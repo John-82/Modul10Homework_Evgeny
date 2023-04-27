@@ -1,0 +1,83 @@
+*{
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+.continer {
+	width: 600px;
+	height: auto;
+	padding: 10px;
+	border-style: solid;
+	border-radius: 5px;
+	border-color: #022354;
+	margin: 20px auto;
+	background-color: #babdbd;
+}
+
+.name-head {
+	font-family: impact;
+	color: #022354;
+
+}
+
+.form-chat {
+	display: flex;
+	justify-content: space-between;
+}
+
+.form-input {
+	border: 3px solid #022354;
+	border-radius: 5px;
+    padding: 7px 5px;
+	width: 85%;
+	margin-right: 10px;
+	outline: none;
+	
+}
+.form-input:focus {
+	border: 3px solid #780531;
+}
+
+.btn {
+	border: none;
+	border-radius: 5px;
+	background-color: #022354;
+	padding: 0px 5px;
+	width: 30%;
+	cursor: pointer;
+	color: aliceblue;
+}
+.btn:hover {
+	background-color: #4c4d4d;
+}
+
+.wrapper-chat {
+	overflow: auto;
+	border: 3px solid #022354;
+	padding: 5px;
+	margin-top: 12px;
+	height: 400px;
+	background-color: white;
+}
+ .messages {
+	border: 3px solid #022354;
+	border-radius: 5px;
+	padding: 10px;
+	margin-bottom: 7px;
+	align-self: flex-end;
+} 
+
+.user-messages {
+	display: flex;
+	flex-flow: column wrap;
+
+}
+.delite-all-messages, a {
+	cursor: pointer;
+	color: #4c4d4d;
+	text-decoration: none
+}
+
+.geo-location {
+	margin-left: 6px;
+}
